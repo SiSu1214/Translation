@@ -1,4 +1,4 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:RaiDrive.Center.Languages" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:RaiDrive.Center.Languages" xmlns:system="clr-namespace:System;assembly=mscorlib">
 
 	<!--  Menu bar>Settings, General  -->
 	<system:String x:Key="Current.Language">vi</system:String>
@@ -41,10 +41,10 @@
 	<system:String x:Key="AddDrive.PrivateKey">Private Key</system:String>
 	<system:String x:Key="AddDrive.Charset">Charset</system:String>
 	<system:String x:Key="AddDrive.TransferMode">Transfer Mode</system:String>
-	<system:String x:Key="AddDrive.Encryption">Encryption</system:String>
+	<system:String x:Key="AddDrive.Encryption">Mã hóa</system:String>
 
 	<system:String x:Key="Vailidation.Volume">Vui lòng điền thông tin hợp lệ</system:String>
-	<system:String x:Key="Vailidation.VolumeExist">Tên này đã có rồi</system:String>
+	<system:String x:Key="Vailidation.VolumeExist">Tên đã sử dụng</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidChar">Tên không thể chứa những ký tự sau :</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidStr">Không sử dụng các tên sau:</system:String>
 	<system:String x:Key="Vailidation.Letter">Vui lòng sử dụng ký tự phân vùng chưa được gán</system:String>
@@ -64,12 +64,12 @@
 	<system:String x:Key="Vailidation.Hint.Port">cổng</system:String>
 	<system:String x:Key="Vailidation.Hint.Path">đường dẫn</system:String>
 	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">tập tin chưa privatekey</system:String>
+	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">tập tin chứa privatekey</system:String>
 
 	<system:String x:Key="Button.Yes">Có</system:String>
 	<system:String x:Key="Button.No">Không</system:String>
 	<system:String x:Key="Button.OK">OK</system:String>
-	<system:String x:Key="Button.Apply">Apply</system:String>
+	<system:String x:Key="Button.Apply">Áp dụng</system:String>
 	<system:String x:Key="Button.Cancel">Hủy</system:String>
 	<system:String x:Key="Button.Check">Kiểm tra</system:String>
 	<system:String x:Key="Button.Edit">Sửa</system:String>
@@ -82,10 +82,10 @@
 	<system:String x:Key="ToolTip.Disconnect">Ngắt kết nối</system:String>
 	<system:String x:Key="ToolTip.Edit">Sửa</system:String>
 	<system:String x:Key="ToolTip.Remove">Xóa</system:String>
-	<system:String x:Key="ToolTip.NetworkDrive">Phân vùng mạng</system:String>
+	<system:String x:Key="ToolTip.NetworkDrive">Mạng</system:String>
 	<system:String x:Key="ToolTip.SecureProtocol">Giao thức an toàn</system:String>
 	<system:String x:Key="ToolTip.SecureConnection">Kết nối an toàn</system:String>
-	<system:String x:Key="ToolTip.Backup">Backup</system:String>
+	<system:String x:Key="ToolTip.Backup">Sao lưu</system:String>
 
 	<system:String x:Key="Message.Title.SelectFolder">Chọn thư mục</system:String>
 	<system:String x:Key="Message.Title.DeleteDrive">Xóa phân vùng</system:String>
@@ -96,27 +96,27 @@
 	<system:String x:Key="Message.SelectedPath">Chọn đường dẫn</system:String>
 	<system:String x:Key="Message.DuplicatedPath">Trùng đường dẫn</system:String>
 
-	<system:String x:Key="Message.SureDelete">Are you sure you want to permanently delete &quot;{0} ({1})&quot; ?</system:String>
-	<system:String x:Key="Message.Title.ServiceDown">Revive RaiDrive</system:String>
-	<system:String x:Key="Message.Title.Reconnect">RaiDrive Reconnect</system:String>
-	<system:String x:Key="Message.ServiceDown">Please press OK button, RaiDrive will be alive.</system:String>
+	<system:String x:Key="Message.SureDelete">Xóa vĩnh viễn&quot;{0} ({1})&quot; ?</system:String>
+	<system:String x:Key="Message.Title.ServiceDown">Khởi động lại RaiDrive</system:String>
+	<system:String x:Key="Message.Title.Reconnect"> Kết nối lại RaiDrive</system:String>
+	<system:String x:Key="Message.ServiceDown">Nhấn OK để tiếp tục vào RaiDrive.</system:String>
 	<system:String x:Key="Message.Settings.Reconnect">Please press OK button, You must reconnect the remote storage for the changed settings to take effect.</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">RaiDrive is not ready to start, You need restart system.</system:String>
-	<system:String x:Key="Message.NotReady.Driver">Device driver is not installed on your system. You need reinstall RaiDrive.</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox supports Internet Explorer 10, 11. You'd better install Internet Explorer 11.</system:String>
+	<system:String x:Key="Message.NotReady.Reboot">RaiDrive chưa sẵn sàng. Bạn cần khởi động lại hệ thống</system:String>
+	<system:String x:Key="Message.NotReady.Driver">Device driver is not installed on your system. Cần cài đặt lại RaiDrive.</system:String>
+	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox hỗ trơ Internet Explorer 10, 11.</system:String>
 	<system:String x:Key="Message.Connect.By">Connected by RaiDrive</system:String>
-	<system:String x:Key="Message.Maximum.Drive">Up to 8 drives can be created in the current version</system:String>
-	<system:String x:Key="Message.License.Expired">Your license has been expired. You need to download the new version. Press OK to upgrade.</system:String>
-	<system:String x:Key="Message.License.NotReady">RaiDrive cannot validate your license.</system:String>
-	<system:String x:Key="Message.UnknownSpace">Unknown space</system:String>
-	<system:String x:Key="Message.CurrentVersion">Current version is {0}</system:String>
-	<system:String x:Key="Message.Cache.Folder.NotSupport">The temporary folder must be a folder on the local disk drive. Network drive is not supported.</system:String>
+	<system:String x:Key="Message.Maximum.Drive">Tối đa 8 bộ nhớ có thể kết nối</system:String>
+	<system:String x:Key="Message.License.Expired">Bản quyền hết hạn. OK để nâng cấp</system:String>
+	<system:String x:Key="Message.License.NotReady">RaiDrive không thể xác thực bản quyền.</system:String>
+	<system:String x:Key="Message.UnknownSpace">Bộ nhớ không rõ</system:String>
+	<system:String x:Key="Message.CurrentVersion">Phiên bản hiện tại là {0}</system:String>
+	<system:String x:Key="Message.Cache.Folder.NotSupport">Thư mục tạm phải ở trên bộ nhớ vật lý. Ổ cứng mạng không được hỗ trợ.</system:String>
 
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">Authorization or authentication failed. Would you like to re-authenticate?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Authorization or authentication failed. Would you like to re-authenticate? (If it still fails, delete the drive and recreate it.)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveAuth">Xác minh thất bại. Thử lại?</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Xác minh thất bại. Thử lại? (Nếu lặp lại, xóa bộ nhớ và tạo lại)</system:String>
 	<system:String x:Key="Message.ErrorRemoteDriveLimit">The download quota has been exceeded. Download restrictions are the policy of {0}.</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">The connection method to the remote storage has changed. You need to sign in again.</system:String>
-	<system:String x:Key="Message.ErrorCacheDiskFull">The cache storage space is not enough. You'd better to increase storage space.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveRemake">Phương thức kết nối thay đổi. Bạn cần đăng nhập lại.</system:String>
+	<system:String x:Key="Message.ErrorCacheDiskFull">Bộ nhớ đệm không đủ.</system:String>
 	<system:String x:Key="Message.ErrorInternet">Unable to connect to remote storage. Please check your internet connection and try again.</system:String>
 	<system:String x:Key="Message.ErrorDiskLetterExist">You must change the drive letter or drive name.</system:String>
 
@@ -139,41 +139,41 @@
 	<system:String x:Key="OtherResponseCode.3">Please double check the protocol{0} and port{1}.</system:String>
 	<!--  ConnectResponse Message  -->
 
-	<system:String x:Key="Words.Reason">Reason</system:String>
+	<system:String x:Key="Words.Reason">Lý do</system:String>
 	<system:String x:Key="Words.Delegation.Stop">Delegation aborted</system:String>
-	<system:String x:Key="Words.Drive">Drive</system:String>
-	<system:String x:Key="Words.FreeSpace">Free space</system:String>
-	<system:String x:Key="Words.Send.Opinion">Send Opinion</system:String>
-	<system:String x:Key="Words.Code">Code</system:String>
-	<system:String x:Key="Words.Path">Path</system:String>
-	<system:String x:Key="Words.File">File</system:String>
-	<system:String x:Key="Words.Ready">Ready</system:String>
-	<system:String x:Key="Words.Time">Time</system:String>
-	<system:String x:Key="Words.Error">Error</system:String>
+	<system:String x:Key="Words.Drive">Ổ đĩa</system:String>
+	<system:String x:Key="Words.FreeSpace">Trống</system:String>
+	<system:String x:Key="Words.Send.Opinion">Gửi ý kiến</system:String>
+	<system:String x:Key="Words.Code">Mã</system:String>
+	<system:String x:Key="Words.Path">Đường dẫn</system:String>
+	<system:String x:Key="Words.File">Tệp</system:String>
+	<system:String x:Key="Words.Ready">Sẵn sàng</system:String>
+	<system:String x:Key="Words.Time">Thời gian</system:String>
+	<system:String x:Key="Words.Error">Lỗi</system:String>
 	<system:String x:Key="Words.State">State</system:String>
-	<system:String x:Key="Words.Size">Size</system:String>
-	<system:String x:Key="Words.Description">Description</system:String>
+	<system:String x:Key="Words.Size">Kích cỡ</system:String>
+	<system:String x:Key="Words.Description">Mô tả</system:String>
 
-	<system:String x:Key="Help.Text">HELP</system:String>
+	<system:String x:Key="Help.Text">TRỢ GIÚP</system:String>
 	<system:String x:Key="Help.Add.Drive">HERE WE GO~</system:String>
-	<system:String x:Key="Help.ServiceDown">RaiDrive Service was stopped.</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">Please press button, RaiDrive will be alive.</system:String>
-	<system:String x:Key="Help.InternetDown">Your internet connection seems to be disconnected. Please check your internet connection.</system:String>
-	<system:String x:Key="Help.InternetDown.RetryAfter">Retry after {0} second(s).</system:String>
-	<system:String x:Key="Help.License.ForBusiness">for the business version</system:String>
+	<system:String x:Key="Help.ServiceDown">RaiDrive Service đã dừng.</system:String>
+	<system:String x:Key="Help.ServiceDown.Press">Hãy nhấn OK.</system:String>
+	<system:String x:Key="Help.InternetDown">Mất kết nối mạng, vui lòng kiểm tra.</system:String>
+	<system:String x:Key="Help.InternetDown.RetryAfter">Thử lại trong {0} giây.</system:String>
+	<system:String x:Key="Help.License.ForBusiness">dành cho doanh nghiệp</system:String>
 
-	<system:String x:Key="Upgrade">Upgrade</system:String>
-	<system:String x:Key="Upgrade.Uptodate">You are using the latest version</system:String>
-	<system:String x:Key="Upgrade.NewVersion">You can upgrade to the version {0}</system:String>
-	<system:String x:Key="Upgrade.New">You can upgrade to the new version</system:String>
+	<system:String x:Key="Upgrade">Nâng cấp</system:String>
+	<system:String x:Key="Upgrade.Uptodate">Phiên bản mới nhất</system:String>
+	<system:String x:Key="Upgrade.NewVersion">Bạn cần nâng câó lên phiên bản {0}</system:String>
+	<system:String x:Key="Upgrade.New">Bạn có thể nâng cấp </system:String>
 
-	<system:String x:Key="NotifyIcon.Open">Open RaiDrive</system:String>
-	<system:String x:Key="NotifyIcon.CheckUpdate">Check update</system:String>
-	<system:String x:Key="NotifyIcon.Exit">Exit</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">Are you sure you want to disconnect all connections before exit?</system:String>
+	<system:String x:Key="NotifyIcon.Open">Mở RaiDrive</system:String>
+	<system:String x:Key="NotifyIcon.CheckUpdate">Kiểm tra cập nhật</system:String>
+	<system:String x:Key="NotifyIcon.Exit">Thoát</system:String>
+	<system:String x:Key="NotifyIcon.Exit.Message">Ngắt toàn bộ kết nối?</system:String>
 
-	<system:String x:Key="State.Space.Format">{0} free of {1} {2}</system:String>
-	<system:String x:Key="State.Space.Used">used</system:String>
+	<system:String x:Key="State.Space.Format">{0} trống trong {1} {2}</system:String>
+	<system:String x:Key="State.Space.Used">đã dùng</system:String>
 
 	<system:String x:Key="Brand.Synology">Synology</system:String>
 	<system:String x:Key="Brand.QNAP">QNAP</system:String>
@@ -183,38 +183,38 @@
 	<system:String x:Key="Brand.etc">etc</system:String>
 
 	<!--  backup  -->
-	<system:String x:Key="Backup">Backup</system:String>
-	<system:String x:Key="Backup.Add">Add</system:String>
-	<system:String x:Key="Backup.Delete">Delete</system:String>
-	<system:String x:Key="Backup.Start">Start</system:String>
-	<system:String x:Key="Backup.Stop">Stop</system:String>
-	<system:String x:Key="Backup.BackupNOW">Backup NOW</system:String>
-	<system:String x:Key="Backup.NOW">NOW</system:String>
-	<system:String x:Key="Backup.Save">Save</system:String>
-	<system:String x:Key="Backup.ClearLog">Clear log</system:String>
-	<system:String x:Key="Backup.DestRootFolder">Remote Folder</system:String>
-	<system:String x:Key="Backup.SourceFolders">Source Folder</system:String>
-	<system:String x:Key="Backup.Progress">Progress</system:String>
-	<system:String x:Key="Backup.AutoStart">Auto Start</system:String>
+	<system:String x:Key="Backup">Sao lưu</system:String>
+	<system:String x:Key="Backup.Add">Thêm</system:String>
+	<system:String x:Key="Backup.Delete">Xóa</system:String>
+	<system:String x:Key="Backup.Start">Bắt đầu</system:String>
+	<system:String x:Key="Backup.Stop">Dừng</system:String>
+	<system:String x:Key="Backup.BackupNOW">Sao lưu NGAY LẬP TỨC</system:String>
+	<system:String x:Key="Backup.NOW">Ngay lập tức</system:String>
+	<system:String x:Key="Backup.Save">Lưu</system:String>
+	<system:String x:Key="Backup.ClearLog">Xóa nhật ký</system:String>
+	<system:String x:Key="Backup.DestRootFolder">Thư mục từ xa</system:String>
+	<system:String x:Key="Backup.SourceFolders">Thư mục gốc</system:String>
+	<system:String x:Key="Backup.Progress">Tiến trình</system:String>
+	<system:String x:Key="Backup.AutoStart">Tự khởi động</system:String>
 	<system:String x:Key="Backup.LogTab.Current">Current</system:String>
-	<system:String x:Key="Backup.LogTab.All">All</system:String>
-	<system:String x:Key="Backup.LogTab.Error">Error</system:String>
-	<system:String x:Key="Backup.LogTab.Ready">Ready</system:String>
+	<system:String x:Key="Backup.LogTab.All">Tất cả</system:String>
+	<system:String x:Key="Backup.LogTab.Error">Lỗi</system:String>
+	<system:String x:Key="Backup.LogTab.Ready">Sẵn sàng</system:String>
 	<system:String x:Key="Backup.LogTab.Left">Left</system:String>
-	<system:String x:Key="Backup.LogTab.File">File</system:String>
-	<system:String x:Key="Backup.LogTab.Folder">Folder</system:String>
+	<system:String x:Key="Backup.LogTab.File">Tệp</system:String>
+	<system:String x:Key="Backup.LogTab.Folder">Thư mục</system:String>
 	<system:String x:Key="Backup.LogTab.FollowLatest">Follow Latest</system:String>
 	<system:String x:Key="Backup.Count.Left">Left</system:String>
 	<system:String x:Key="Backup.Count.Processed">Processed</system:String>
 
-	<system:String x:Key="Message.Backup.BackupTargetFolder">Select a remote folder where files will be stored</system:String>
+	<system:String x:Key="Message.Backup.BackupTargetFolder">Chọn thư mục lưu file</system:String>
 
 	<!-- from version 1.6.0.416 -->
-	<system:String x:Key="Settings.General.UseDriveIcon">Use the custom icon on a connected drive</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">Local Disk</system:String>
-	<system:String x:Key="AddDrive.FileLock">File Lock</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">Writable Drive</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">Mount like a local disk</system:String>
+	<system:String x:Key="Settings.General.UseDriveIcon">Biểu tượng tùy chỉnh</system:String>
+	<system:String x:Key="AddDrive.LocalDisk">Ổ cục bộ</system:String>
+	<system:String x:Key="AddDrive.FileLock">Khóa tệp</system:String>
+	<system:String x:Key="AddDrive.WritableDrive">Ổ đĩa ghi được</system:String>
+	<system:String x:Key="ToolTip.LocalDisk">Gắn như ổ cục bộk</system:String>
 	<system:String x:Key="ToolTip.FileLock">WebDAV File Lock</system:String>
 	<system:String x:Key="ToolTip.FileLock2">depends on WebDAV server</system:String>
 
